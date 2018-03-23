@@ -3,15 +3,6 @@ import { shallow } from 'enzyme';
 import { EditExpensePage } from '../../components/EditExpensePage';
 import expenses from '../fixtures/expenses';
 
-// should render EditExpensePage
-// snapshot
-
-// should handle editExpense
-// spy
-
-// should handle removeExpense
-// spy
-
 let editExpense, removeExpense, history, wrapper;
 
 beforeEach(() => {
